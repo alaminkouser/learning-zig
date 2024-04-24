@@ -35,7 +35,7 @@ You should see `Hello, World!` printed to the console.
 That's it! You have written your first Zig program.
 
 > [!NOTE]
-> zig has std library which is imported using `const std = @import("std");`.
-> `pub fn main() void` is the entry point of the program.
-> `std.debug.print("Hello, World!\n", .{});` prints `Hello, World!` to the console.
+> zig has std library which is imported using `const std = @import("std");`.\
+> `pub fn main() void` is the entry point of the program.\
+> `std.debug.print("Hello, World!\n", .{});` prints `Hello, World!` to the console.\
 > `zig run main.zig` runs the program.
